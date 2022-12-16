@@ -1,17 +1,8 @@
 let arr = [1, 3, 2, 4, 5, 6, 7, 8, 9];
 
 function CardShuffle() {
-  const shuffledArr = ShuffleArray(arr);
+  const shuffledArr = arr.sort((a, b) => 0.5 - Math.random());
   GenerateLayout(shuffledArr);
-}
-
-function ShuffleArray(arr) {
-  let shuffled = arr
-    .map((value) => ({ value, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ value }) => value);
-
-  return shuffled;
 }
 
 function CardSort() {
