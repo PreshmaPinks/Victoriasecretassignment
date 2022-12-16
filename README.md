@@ -3,7 +3,7 @@
 This project is card shuffle game.
 
 Project includes one board with numbers ranging 1-9, and two buttons to shuffle and sort.
-Shuffle button - shuffles the board randomly 
+Shuffle button - shuffles the board randomly. 
 Sort button -sort numbers in ascending numbers
 
 Tech includes - Javscript, HTML, CSS
