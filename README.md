@@ -8,4 +8,11 @@ Sort button -sort numbers in ascending order
 
 Tech used - Javscript, HTML, CSS
 
-<img width="397" alt="image" src="https://user-images.githubusercontent.com/28885174/208023163-460d794c-47c7-4da6-9fee-62396d9ba57c.png">
+
+sorted image
+<img width="379" alt="image" src="https://user-images.githubusercontent.com/28885174/208059654-535eb123-156c-49b6-a35c-e33ac9bec424.png">
+
+shuffled image
+<img width="377" alt="image" src="https://user-images.githubusercontent.com/28885174/208059764-301ece85-b9af-4232-9436-dd1485c9640d.png">
+
+
