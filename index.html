@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>hii</h1>
+    <h6 class="cardHeader">Shuffle and Sort</h6>
+    <div class="mainContainer">
+      <div>
+        <div class="cardContainer" id="cardParent"></div>
+        <div class="insertNameText">
+          Shuffle and Sort by
+          <span>
+            <input placeholder="({insert Your Name Here})" type="text" class="inputNameHolder"></input>
+          </span>
+        </div>
+      </div>
+
+      <div class="buttonContainer">
+        <div>
+          <button
+            class="shuffleSortButton"
+            style="margin-top: 1rem"
+            onclick="CardShuffle()"
+          >
+            SHUFFLE
+          </button>
+        </div>
+        <div>
+          <button class="shuffleSortButton" onclick="CardSort()">SORT</button>
+        </div>
+      </div>
+    </div>
+    <script src="cards.js"></script>
   </body>
 </html>

@@ -1,0 +1,100 @@
+.mainContainer {
+  border: 0px solid;
+  display: flex;
+  height: 350px;
+  width: 460px;
+  text-align: center;
+  margin: 0rem 10rem 5rem 20rem;
+  background-color: #efefef;
+  box-shadow: 0px 2.5px 0px #c5c5c5 inset;
+}
+
+.cardHeader {
+  margin: 5rem 0 0.2rem 35rem;
+  font: 0.7rem "Fira Sans", sans-serif;
+}
+
+.cardContainer {
+  border: none;
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.188rem;
+}
+
+.shuffleSortButton {
+  background-color: #72c3dc;
+  color: #ffffff;
+  border: 0;
+  border-radius: 3px;
+  width: 5rem;
+  height: 1.3rem;
+  font-size: 0.4rem;
+  margin-left: 0.9rem;
+  margin-top: 0.7rem;
+  box-shadow: 0px 3px 1px #2b8ead;
+}
+
+.numberCardContainer {
+  flex-grow: 1;
+  width: 33%;
+  height: 100px;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: Verdana, sans-serif;
+}
+
+.index1,
+.index8 {
+  background-color: #6f98a8;
+}
+
+.index2,
+.index4 {
+  background-color: #2b8ead;
+}
+
+.index3,
+.index5,
+.index9 {
+  background-color: #2f454e;
+}
+
+.index6,
+.index7 {
+  background-color: #bfbfbf;
+}
+
+.insertNameText {
+  font-style: italic;
+  font-size: 0.6rem;
+  padding: 0.5rem 0 0 9rem;
+}
+
+.inputNameHolder:focus {
+  outline: none;
+}
+
+.inputNameHolder {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: #eee;
+  font-size: 0.5rem;
+  font-style: italic;
+  font-size: 0.6rem;
+}
+
+input:placeholder-shown {
+  font-style: italic;
+  font-size: 0.55rem;
+}
+
+::placeholder {
+  color: #000000;
+}
